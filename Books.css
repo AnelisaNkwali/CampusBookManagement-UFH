@@ -1,0 +1,106 @@
+﻿.footer {
+    background-color: #343a40;
+    color: white;
+    font-size: 14px;
+    flex-wrap: wrap;
+}
+
+    .footer img.social-icon {
+        width: 40px;
+        height: 40px;
+    }
+
+.footer-left,
+.footer-right {
+    flex: 1;
+    text-align: center;
+}
+
+.footer-center {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+.logo {
+    height: 50px;
+    width: auto;
+}
+.navbar-brand {
+    font-family:'PT Serif', serif; 
+    font-size: 30px;
+    color: white;
+}
+.nav-link {
+    font-size: 20px;
+    font-family: 'PT Serif', serif;
+    font-weight: 500;
+    color: white !important;
+    transition: color 0.3s ease, background-color 0.3s ease;
+}
+.navbar-nav .nav-link:hover {
+    color: #ffd700; 
+    background-color: rgba(255, 255, 255, 0.1); 
+    border-radius: 5px;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'PT Serif', serif;
+}
+
+.video-background {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+    object-fit: cover;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'PT Serif', serif;
+}
+
+.video-background {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -1; 
+    object-fit: cover;
+}
+
+
+.home-wrapper {
+    padding-top: 100px; 
+    padding-bottom: 110px; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.welcome-content {
+    text-align: center;
+    color: white;
+    background-color: rgba(0, 0, 0, 0.6);
+    padding: 60px 30px;
+    max-width: 700px;
+    margin: 0 auto;
+    border-radius: 12px;
+}
+
+    .welcome-content h1 {
+        font-size: 60px;
+        font-weight: bold;
+        margin: 0;
+    }
+
+    .welcome-content p {
+        font-size: 22px;
+        margin-top: 20px;
+    }
